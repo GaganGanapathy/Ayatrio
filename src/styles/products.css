@@ -1,0 +1,8 @@
+.card {
+  border-radius: inherit;
+  border: none;
+}
+
+.card-body {
+  padding-left: 0;
+}

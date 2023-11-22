@@ -1,0 +1,27 @@
+.accordion,
+.accordion * {
+  border: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.check {
+  border: 1px solid black;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.col-4 > label {
+  width: 50px !important;
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid rgb(185, 182, 182) !important;
+}
+
+.g-col-4 > label:focus {
+  border: 1px solid black !important;
+}
